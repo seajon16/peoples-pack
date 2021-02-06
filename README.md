@@ -10,7 +10,7 @@ This is a bunch of random Minecraft Forge mods for #epic gamers, including Creat
 Once it loads, close it, and the `mods` folder should now be present.
 
 * Lastly, you need the mods.
-You can either download [the zip in this repo](./peoples-pack.zip) (it includes OptiFine `;)`), or download each of these and throw them in your `mods` folder:
+You can either download [the zip in this repo](./peoples-pack-v1.3.zip) (it includes OptiFine `;)`) and unzip the contents into your `mods` folder, or download each of these and throw them individually into your `mods` folder:
   * [AutoOreDictConv](https://media.forgecdn.net/files/3181/99/autooredictconv-1.16.4-16.1.5.jar)
   * [Biomes O Plenty](https://media.forgecdn.net/files/3181/401/BiomesOPlenty-1.16.4-13.0.0.431-universal.jar)
   * [Citadel](https://media.forgecdn.net/files/3131/923/citadel-1.5.3.jar)
