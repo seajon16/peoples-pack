@@ -23,6 +23,7 @@ Super cool end, animals (hopefully), QoL mods, and chunk loading!
     * QoL: Prevents you from hitting your pets
   * [FTB Chunks](https://media.forgecdn.net/files/3189/22/ftb-chunks-1604.2.2.62.jar) (requires [FTB GUI Library](https://media.forgecdn.net/files/3214/262/ftb-gui-library-1605.2.1.40-forge.jar) & [Architectury](https://media.forgecdn.net/files/3218/917/architectury-1.8.128-forge.jar))
     * Plot claiming & chunk loading
+    * **NOTE:** This mod adds a minimap. Since this modpack already has Xaero's minimap, you probably want to disable it. You can do this by hitting `m` ingame (the default keybinding), then clicking on the `minimap` option until it reads `disabled`.
   * [Patchouli](https://media.forgecdn.net/files/3204/37/Patchouli-1.16.4-50.jar)
     * Adds better documentation for mods, namely Better End
   * [Swing Through Grass](https://media.forgecdn.net/files/3103/28/swingthroughgrass-1.16.4-1.5.3.jar)
@@ -44,6 +45,8 @@ Super cool end, animals (hopefully), QoL mods, and chunk loading!
 
 To update your pack, you can simply delete the contents of your `mods` folder, then unzip the new version into your `mods` folder, or you can download the individual mods below.
 In addition, if you were experiencing a crash when booting the game, you'll also need to re-follow all the installation instructions, since you'll need to download a specific version of Forge to fix the crash.
+
+**NOTE:** FTB Chunks adds a minimap. Since this modpack already has Xaero's minimap, you probably want to disable it. You can do this by hitting `m` ingame (the default keybinding), then clicking on the `minimap` option until it reads `disabled`.
 
 ## Installation
 
