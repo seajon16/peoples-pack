@@ -1,52 +1,18 @@
-# The People's Pack v1.5
+# The People's Pack v1.6
 
 This is a bunch of random Minecraft Forge mods for #epic gamers, including Create, IE, Rats, and Tetra.
 
-## What's New in v1.5?
+## What's New in v1.6?
 
-Super cool end, animals (hopefully), QoL mods, and chunk loading!
+* Removed chunk loading to hopefully help lag issues
+  * Specifically, removed FTB Chunks and its dependencies: FTB GUI Library, & Architectury
 
-* New Mods:
-  * [Alex's Mobs](https://media.forgecdn.net/files/3213/812/alexsmobs-1.6.0.jar)
-    * Adds a bunch of cool biome-specific mobs
-  * [AI Improvements](https://media.forgecdn.net/files/3031/978/AI-Improvements-1.16.2-0.3.0.jar)
-    * QoL: Improvements to AI that improves both client-side and server-side performance
-  * [Better End](https://media.forgecdn.net/files/3209/506/betterendforge-1.16.4-1.5.0.jar)
-    * Makes the end extremely cool
-  * [Client Tweaks](https://media.forgecdn.net/files/3222/131/ClientTweaks_1.16.3-5.3.0.jar)
-    * QoL: Various client improvements
-  * [Controlling](https://media.forgecdn.net/files/3200/753/Controlling-7.0.0.13.jar)
-    * QoL: Allows searching of client-side settings
-  * [Cosmetic Armor Reworked](https://media.forgecdn.net/files/3205/904/CosmeticArmorReworked-1.16.5-v1b.jar)
-    * Allows you to have cosmetic armor, or hide your armor altogether
-  * [FriendlyFire](https://media.forgecdn.net/files/3183/918/FriendlyFire-1.16.5-7.0.1.jar)
-    * QoL: Prevents you from hitting your pets
-  * [FTB Chunks](https://media.forgecdn.net/files/3189/22/ftb-chunks-1604.2.2.62.jar) (requires [FTB GUI Library](https://media.forgecdn.net/files/3214/262/ftb-gui-library-1605.2.1.40-forge.jar) & [Architectury](https://media.forgecdn.net/files/3218/917/architectury-1.8.128-forge.jar))
-    * Plot claiming & chunk loading
-    * **NOTE:** This mod adds a minimap. Since this modpack already has Xaero's minimap, you probably want to disable it. You can do this by hitting `m` ingame (the default keybinding), then clicking on the `minimap` option until it reads `disabled`.
-  * [Patchouli](https://media.forgecdn.net/files/3204/37/Patchouli-1.16.4-50.jar)
-    * Adds better documentation for mods, namely Better End
-  * [Swing Through Grass](https://media.forgecdn.net/files/3103/28/swingthroughgrass-1.16.4-1.5.3.jar)
-    * QoL: Lets you hit mobs through grass
-* Updates to Mods:
-  * [Absent by Design](https://media.forgecdn.net/files/3213/954/absentbydesign-1.16.5-1.4.1.jar)
-  * [AutoOreDictConv](https://media.forgecdn.net/files/3212/354/autooredictconv-1.16.4-16.1.8.jar)
-  * [Citadel](https://media.forgecdn.net/files/3220/917/citadel-1.6.2.jar)
-  * [JEI](https://media.forgecdn.net/files/3192/904/jei-1.16.4-7.6.1.71.jar)
-  * [MouseTweaks](https://media.forgecdn.net/files/3202/662/MouseTweaks-2.14-mc1.16.2.jar)
-  * [RandomPatches](https://media.forgecdn.net/files/3211/323/randompatches-2.4.4-forge.jar)
-  * [Tetra](https://media.forgecdn.net/files/3201/109/tetra-1.16.4-3.6.1.jar)
-  * [Torchmaster](hhttps://media.forgecdn.net/files/3170/451/torchmaster-2.3.6.jar)
-  * [Waystones](https://media.forgecdn.net/files/3222/129/Waystones_1.16.5-7.4.0.jar)
-  * [Xaero's Minimap (via its own site)](https://chocolateminecraft.com/mods2/minimap/Xaeros_Minimap_21.4.1_Forge_1.16.5.jar)
-  * [Xaero's World Map (also via its own site)](https://chocolateminecraft.com/mods2/worldmap/XaerosWorldMap_1.12.1_Forge_1.16.5.jar)
-* Bugfixes:
-  * The latest version of Forge does not work with Tetra (see [this issue](https://github.com/mickelus/tetra/issues/365)), therefore the instructions now point to downloading Forge v36.0.40, the latest working version
-
-To update your pack, you can simply delete the contents of your `mods` folder, then unzip the new version into your `mods` folder, or you can download the individual mods below.
-In addition, if you were experiencing a crash when booting the game, you'll also need to re-follow all the installation instructions, since you'll need to download a specific version of Forge to fix the crash.
-
-**NOTE:** FTB Chunks adds a minimap. Since this modpack already has Xaero's minimap, you probably want to disable it. You can do this by hitting `m` ingame (the default keybinding), then clicking on the `minimap` option until it reads `disabled`.
+To update your pack from v1.5 to v1.6, either:
+  * Delete the following files from your existing `mods` folder:
+    * `architectury-1.8.128-forge.jar`
+    * `ftb-chunks-1604.2.2.62.jar`
+    * `ftb-gui-library-1605.2.1.40-forge.jar`
+  * Delete the contents of your `mods` folder, then unzip the [new zip file](./peoples-pack-v1.6.zip) into your `mods` folder
 
 ## Installation
 
@@ -55,12 +21,11 @@ In addition, if you were experiencing a crash when booting the game, you'll also
 Once it loads, close it, and the `mods` folder should now be present.
 
 * Lastly, you need the mods.
-You can either download [the zip in this repo](./peoples-pack-v1.5.zip) (it includes OptiFine `;)`) and unzip the contents into your `mods` folder, or download each of these and throw them individually into your `mods` folder:
+You can either download [the zip in this repo](./peoples-pack-v1.6.zip) (it includes OptiFine `;)`) and unzip the contents into your `mods` folder, or download each of these and throw them individually into your `mods` folder:
   * [Absent by Design](https://media.forgecdn.net/files/3213/954/absentbydesign-1.16.5-1.4.1.jar)
   * [Alex's Mobs](https://media.forgecdn.net/files/3213/812/alexsmobs-1.6.0.jar)
   * [AI Improvements](https://media.forgecdn.net/files/3031/978/AI-Improvements-1.16.2-0.3.0.jar)
   * [AppleSkin](https://media.forgecdn.net/files/3035/787/AppleSkin-mc1.16.2-forge-1.0.14.jar)
-  * [Architectury](https://media.forgecdn.net/files/3218/917/architectury-1.8.128-forge.jar)
   * [AutoOreDictConv](https://media.forgecdn.net/files/3212/354/autooredictconv-1.16.4-16.1.8.jar)
   * [Better End](https://media.forgecdn.net/files/3209/506/betterendforge-1.16.4-1.5.0.jar)
   * [Biomes O Plenty](https://media.forgecdn.net/files/3181/401/BiomesOPlenty-1.16.4-13.0.0.431-universal.jar)
@@ -75,8 +40,6 @@ You can either download [the zip in this repo](./peoples-pack-v1.5.zip) (it incl
   * [Decorative Blocks](https://media.forgecdn.net/files/3166/283/decorative_blocks-1.16.4-1.7.2.jar)
   * [Extended Lights](https://media.forgecdn.net/files/3144/281/extlights-3.3.jar)
   * [FriendlyFire](https://media.forgecdn.net/files/3183/918/FriendlyFire-1.16.5-7.0.1.jar)
-  * [FTB Chunks](https://media.forgecdn.net/files/3189/22/ftb-chunks-1604.2.2.62.jar)
-  * [FTB GUI Library](https://media.forgecdn.net/files/3214/262/ftb-gui-library-1605.2.1.40-forge.jar)
   * [Gauges & Switches](https://media.forgecdn.net/files/3179/484/rsgauges-1.16.4-1.2.8.jar)
   * [HWYLA](https://media.forgecdn.net/files/3033/593/Hwyla-forge-1.10.11-B78_1.16.2.jar)
   * [Immersive Engineering](https://media.forgecdn.net/files/3189/63/ImmersiveEngineering-1.16.5-4.2.1-131.jar)
