@@ -1,73 +1,98 @@
-# The People's Pack v1.6
+# The People's Pack v2.0
 
 This is a bunch of random Minecraft Forge mods for #epic gamers, including Create, IE, Rats, and Tetra.
 
-## What's New in v1.6?
-
-* Removed chunk loading to hopefully help lag issues
-  * Specifically, removed FTB Chunks and its dependencies: FTB GUI Library, & Architectury
-
-To update your pack from v1.5 to v1.6, either:
-  * Delete the following files from your existing `mods` folder:
-    * `architectury-1.8.128-forge.jar`
-    * `ftb-chunks-1604.2.2.62.jar`
-    * `ftb-gui-library-1605.2.1.40-forge.jar`
-  * Delete the contents of your `mods` folder, then unzip the [new zip file](./peoples-pack-v1.6.zip) into your `mods` folder
-
 ## Installation
 
-* Download and run [this launcher](https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.16.5-36.0.40/forge-1.16.5-36.0.40-installer.jar); you'll want a client installation.
+* Download and run [this launcher](https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-installer.jar); you'll want a client installation.
 * This should make a `mods` folder in your `.minecraft` folder (which is usually in `C:\Users\{User}\AppData\Roaming`), but if it doesn't, start up the Minecraft launcher, select the new forge profile, and run the game.
 Once it loads, close it, and the `mods` folder should now be present.
+* Lastly, you need the mods. Download [the zip in this repo](./peoples-pack-v2.0.zip) (it includes OptiFine `;)`) and unzip the contents into your `mods` folder. It already includes [OptiFine](https://optifine.net/downloads); no need to run any `jar` files.
+* Launch Minecraft, and you should be good to go.
+* **Note:** If you look at the server in your server list and see a message saying "Incompatible FML modded server: Server has additional mods that may be needed on the client", that's because I have a few extra server-side utility mods like `tpa`. You shouldn't run into any problems connecting to the server.
 
-* Lastly, you need the mods.
-You can either download [the zip in this repo](./peoples-pack-v1.6.zip) (it includes OptiFine `;)`) and unzip the contents into your `mods` folder, or download each of these and throw them individually into your `mods` folder:
-  * [Absent by Design](https://media.forgecdn.net/files/3213/954/absentbydesign-1.16.5-1.4.1.jar)
-  * [Alex's Mobs](https://media.forgecdn.net/files/3213/812/alexsmobs-1.6.0.jar)
-  * [AI Improvements](https://media.forgecdn.net/files/3031/978/AI-Improvements-1.16.2-0.3.0.jar)
-  * [AppleSkin](https://media.forgecdn.net/files/3035/787/AppleSkin-mc1.16.2-forge-1.0.14.jar)
-  * [AutoOreDictConv](https://media.forgecdn.net/files/3212/354/autooredictconv-1.16.4-16.1.8.jar)
-  * [Better End](https://media.forgecdn.net/files/3209/506/betterendforge-1.16.4-1.5.0.jar)
-  * [Biomes O Plenty](https://media.forgecdn.net/files/3181/401/BiomesOPlenty-1.16.4-13.0.0.431-universal.jar)
-  * [Cat Jammies](https://media.forgecdn.net/files/3150/242/catjammies-1.0.0.jar)
-  * [Chisels & Bits](https://media.forgecdn.net/files/3176/33/chiselsandbits-0.2.10-RELEASE.jar)
-  * [Citadel](https://media.forgecdn.net/files/3220/917/citadel-1.6.2.jar)
-  * [Client Tweaks](https://media.forgecdn.net/files/3222/131/ClientTweaks_1.16.3-5.3.0.jar)
-  * [ComputerCraft: Tweaked](https://media.forgecdn.net/files/3170/424/cc-tweaked-1.16.4-1.95.2.jar)
-  * [Controlling](https://media.forgecdn.net/files/3200/753/Controlling-7.0.0.13.jar)
-  * [Cosmetic Armor Reworked](https://media.forgecdn.net/files/3205/904/CosmeticArmorReworked-1.16.5-v1b.jar)
-  * [Create](https://media.forgecdn.net/files/3167/531/create-mc1.16.3_v0.3e.jar)
-  * [Decorative Blocks](https://media.forgecdn.net/files/3166/283/decorative_blocks-1.16.4-1.7.2.jar)
-  * [Extended Lights](https://media.forgecdn.net/files/3144/281/extlights-3.3.jar)
-  * [FriendlyFire](https://media.forgecdn.net/files/3183/918/FriendlyFire-1.16.5-7.0.1.jar)
-  * [Gauges & Switches](https://media.forgecdn.net/files/3179/484/rsgauges-1.16.4-1.2.8.jar)
-  * [HWYLA](https://media.forgecdn.net/files/3033/593/Hwyla-forge-1.10.11-B78_1.16.2.jar)
-  * [Immersive Engineering](https://media.forgecdn.net/files/3189/63/ImmersiveEngineering-1.16.5-4.2.1-131.jar)
-  * [InvTweaks](https://media.forgecdn.net/files/3102/237/invtweaks-1.16.4-1.0.1.jar)
-  * [Iron Chests](https://media.forgecdn.net/files/3105/315/ironchest-1.16.4-11.2.10.jar)
-  * [JEI](https://media.forgecdn.net/files/3192/904/jei-1.16.4-7.6.1.71.jar)
-  * [MDECore](https://media.forgecdn.net/files/3118/780/mdecore-1.16.4-16.1.0.jar)
-  * [MGUI](https://media.forgecdn.net/files/3104/239/mgui-1.16.4-3.1.3.jar)
-  * [MouseTweaks](https://media.forgecdn.net/files/3202/662/MouseTweaks-2.14-mc1.16.2.jar)
-  * [NeonCraft](https://media.forgecdn.net/files/3050/909/neoncraft-2.1.jar)
-  * [Pam's Crops](https://media.forgecdn.net/files/3076/451/pamhc2crops-1.16.3-1.0.1.jar)
-  * [Pam's Food Core](https://media.forgecdn.net/files/3190/867/pamhc2foodcore-1.16.3-1.0.2.jar)
-  * [Pam's Food Extended](https://media.forgecdn.net/files/3190/664/pamhc2foodextended-1.16.3-1.0.1.jar)
-  * [Pam's Trees](https://media.forgecdn.net/files/3117/43/pamhc2trees-1.16.3-1.0.0.jar)
-  * [Patchouli](https://media.forgecdn.net/files/3204/37/Patchouli-1.16.4-50.jar)
-  * [RandomPatches](https://media.forgecdn.net/files/3211/323/randompatches-2.4.4-forge.jar)
-  * [Ratlantis](https://media.forgecdn.net/files/3072/700/ratlantis-1.0.0-1.16.3.jar)
-  * [Rats](https://media.forgecdn.net/files/3189/312/rats-7.1.1-1.16.5.jar)
-  * [Storage Drawers](https://media.forgecdn.net/files/3180/569/StorageDrawers-1.16.3-8.2.2.jar)
-  * [Swing Through Grass](https://media.forgecdn.net/files/3103/28/swingthroughgrass-1.16.4-1.5.3.jar)
-  * [Tetra](https://media.forgecdn.net/files/3201/109/tetra-1.16.4-3.6.1.jar)
-  * [Torchmaster](hhttps://media.forgecdn.net/files/3170/451/torchmaster-2.3.6.jar)
-  * [Waystones](https://media.forgecdn.net/files/3222/129/Waystones_1.16.5-7.4.0.jar)
-  * [Xaero's Minimap (via its own site)](https://chocolateminecraft.com/mods2/minimap/Xaeros_Minimap_21.4.1_Forge_1.16.5.jar)
-  * [Xaero's World Map (also via its own site)](https://chocolateminecraft.com/mods2/worldmap/XaerosWorldMap_1.12.1_Forge_1.16.5.jar)
+## Mod List
+  * [Absent by Design](https://mediafilez.forgecdn.net/files/3497/361/absentbydesign-1.16.5-1.5.1.jar)
+  * [Advanced Peripherals](https://mediafilez.forgecdn.net/files/3857/897/advancedperipherals-1.16.5-0.7.10r.jar)
+  * [Adventures Structures](https://mediafilez.forgecdn.net/files/3596/497/AdventuresStructures_3.3.1.jar)
+  * [Alex's Mobs](https://mediafilez.forgecdn.net/files/3467/280/alexsmobs-1.12.1.jar)
+  * [AI Improvements](https://mediafilez.forgecdn.net/files/3798/940/AI-Improvements-1.16.5-0.5.0.jar)
+  * [Angel Ring](https://mediafilez.forgecdn.net/files/3849/196/angelring-1.16.5-2.0.2.jar)
+  * [AppleSkin](https://mediafilez.forgecdn.net/files/3686/480/appleskin-forge-mc1.16.x-2.4.0.jar)
+  * [Aquaculture 2](https://mediafilez.forgecdn.net/files/4074/702/Aquaculture-1.16.5-2.1.23.jar)
+  * [AutoOreDictConv](https://mediafilez.forgecdn.net/files/3285/544/autooredictconv-1.16.4-16.1.10.jar)
+  * [AutoRegLib](https://mediafilez.forgecdn.net/files/3326/41/AutoRegLib-1.6-49.jar)
+  * [Better End](https://mediafilez.forgecdn.net/files/3467/948/betterendforge-1.16.5-1.6.3.jar)
+  * [Biomes O Plenty](https://mediafilez.forgecdn.net/files/3360/574/BiomesOPlenty-1.16.5-13.1.0.477-universal.jar)
+  * [Bookshelf](https://mediafilez.forgecdn.net/files/4351/252/Bookshelf-Forge-1.16.5-10.4.33.jar)
+  * [Botania](https://mediafilez.forgecdn.net/files/4066/54/Botania-1.16.5-420.3.jar)
+  * [Builders Crafts & Additions](https://mediafilez.forgecdn.net/files/3416/699/buildersaddition-1.16.5-20210807a.jar)
+  * [Carry On](https://mediafilez.forgecdn.net/files/3579/466/carryon-1.16.5-1.15.5.22.jar)
+  * [Cat Jammies](https://mediafilez.forgecdn.net/files/3252/734/catjammies-1.1.0.jar)
+  * [Chisels & Bits](https://mediafilez.forgecdn.net/files/3593/643/chiselsandbits-1.0.63.jar)
+  * [Citadel](https://mediafilez.forgecdn.net/files/3441/28/citadel-1.8.1-1.16.5.jar)
+  * [Client Tweaks](https://mediafilez.forgecdn.net/files/3222/131/ClientTweaks_1.16.3-5.3.0.jar)
+  * [CodeChicken Lib](https://mediafilez.forgecdn.net/files/3681/973/CodeChickenLib-1.16.5-4.0.7.445-universal.jar)
+  * [Configured](https://mediafilez.forgecdn.net/files/3946/491/configured-1.5.3-1.16.5.jar)
+  * [ComputerCraft: Tweaked](https://mediafilez.forgecdn.net/files/4395/617/cc-tweaked-1.16.5-1.101.2.jar)
+  * [Construction Wand](https://mediafilez.forgecdn.net/files/3556/64/constructionwand-1.16.5-2.5.jar)
+  * [Controlling](https://mediafilez.forgecdn.net/files/4421/16/Controlling-7.0.0.29.jar)
+  * [Cosmetic Armor Reworked](https://mediafilez.forgecdn.net/files/3738/137/CosmeticArmorReworked-1.16.5-v5.jar)
+  * [Curios API](https://mediafilez.forgecdn.net/files/4419/403/curios-forge-1.16.5-4.1.0.0.jar)
+  * [Create](https://mediafilez.forgecdn.net/files/3536/25/create-mc1.16.5_v0.3.2g.jar)
+  * [Create Addition](https://mediafilez.forgecdn.net/files/3629/494/createaddition-1.16.5-20220129a.jar)
+  * [Decorative Blocks](https://mediafilez.forgecdn.net/files/3166/283/decorative_blocks-1.16.4-1.7.2.jar)
+  * [Dimensional Dungeons](https://mediafilez.forgecdn.net/files/3407/168/dimdungeons-1.13.1.jar)
+  * [Enchantment Descriptions](https://mediafilez.forgecdn.net/files/3838/362/EnchantmentDescriptions-1.16.5-7.1.20.jar)
+  * [Ender Storage](https://mediafilez.forgecdn.net/files/3737/982/EnderStorage-1.16.5-2.8.0.170-universal.jar)
+  * [Explorer's Compass](https://mediafilez.forgecdn.net/files/3412/474/ExplorersCompass-1.16.5-1.1.2-forge.jar)
+  * [Extended Lights](https://mediafilez.forgecdn.net/files/3144/281/extlights-3.3.jar)
+  * [Farmer's Delight](https://mediafilez.forgecdn.net/files/3573/686/FarmersDelight-1.16.5-0.5.4.jar)
+  * [Fast Leaf Decay](https://mediafilez.forgecdn.net/files/3052/146/FastLeafDecay-v25.jar)
+  * [FriendlyFire](https://mediafilez.forgecdn.net/files/3732/293/FriendlyFire-1.16.5-7.0.5.jar)
+  * [Flywheel](https://mediafilez.forgecdn.net/files/3535/459/flywheel-1.16-0.2.5.jar)
+  * [Gauges & Switches](https://mediafilez.forgecdn.net/files/3968/307/rsgauges-1.16.5-1.2.16.jar)
+  * [Immersive Engineering](https://mediafilez.forgecdn.net/files/3578/181/ImmersiveEngineering-1.16.5-5.0.7-143.jar)
+  * [Inventory Essentials](https://mediafilez.forgecdn.net/files/3332/381/InventoryEssentials_1.16.5-2.3.2.jar)
+  * [Iron Chests](https://mediafilez.forgecdn.net/files/3543/538/ironchest-1.16.5-11.2.21.jar)
+  * [Jade](https://mediafilez.forgecdn.net/files/3910/873/Jade-1.16.4-2.8.3.jar)
+  * [JEI](https://mediafilez.forgecdn.net/files/4060/770/jei-1.16.5-7.7.1.153.jar)
+  * [Nature's Compass](https://mediafilez.forgecdn.net/files/3404/859/NaturesCompass-1.16.5-2.0.1-fabric.jar)
+  * [MDECore](https://mediafilez.forgecdn.net/files/3118/780/mdecore-1.16.4-16.1.0.jar)
+  * [Mining Gadgets](https://mediafilez.forgecdn.net/files/3038/982/modnametooltip_1.16.2-1.15.0.jar)
+  * [Mob Grinding Utils](https://mediafilez.forgecdn.net/files/4368/330/mob_grinding_utils-1.16.5-0.4.47.jar)
+  * [Mod Name Tooltip](https://mediafilez.forgecdn.net/files/3038/982/modnametooltip_1.16.2-1.15.0.jar)
+  * [Moonlight Lib](https://mediafilez.forgecdn.net/files/3517/8/selene-1.16.5-1.9.0.jar)
+  * [Mouse Tweaks](https://mediafilez.forgecdn.net/files/3202/662/MouseTweaks-2.14-mc1.16.2.jar)
+  * [MultiBeds](https://mediafilez.forgecdn.net/files/4411/309/multibeds-forge-1.16.2-1.7.17.jar)
+  * [mutil](https://mediafilez.forgecdn.net/files/3456/505/mgui-1.16.5-3.3.0.jar)
+  * [Neon Craft 2](https://mediafilez.forgecdn.net/files/3608/68/neoncraft2-1.0.jar)
+  * [Pam's Crops](https://mediafilez.forgecdn.net/files/3276/350/pamhc2crops-1.16.3-1.0.2.jar)
+  * [Pam's Food Core](https://mediafilez.forgecdn.net/files/3190/867/pamhc2foodcore-1.16.3-1.0.2.jar)
+  * [Pam's Food Extended](https://mediafilez.forgecdn.net/files/3418/627/pamhc2foodextended-1.16.3-1.0.4.jar)
+  * [Pam's Trees](https://mediafilez.forgecdn.net/files/3281/234/pamhc2trees-1.16.3-1.0.1.jar)
+  * [Patchouli](https://mediafilez.forgecdn.net/files/3847/29/Patchouli-1.16.4-53.3.jar)
+  * [Pirates and Looters](https://mediafilez.forgecdn.net/files/3427/381/Pirates_And_Looters_Kraken_Update.jar)
+  * [Quark](https://mediafilez.forgecdn.net/files/3642/325/Quark-r2.4-322.jar)
+  * [Quark Oddities](https://mediafilez.forgecdn.net/files/3088/871/QuarkOddities-1.16.3.jar)
+  * [RandomPatches](https://mediafilez.forgecdn.net/files/3211/323/randompatches-2.4.4-forge.jar)
+  * [Ratlantis](https://mediafilez.forgecdn.net/files/3072/700/ratlantis-1.0.0-1.16.3.jar)
+  * [Rats](https://mediafilez.forgecdn.net/files/3319/810/rats-7.2.0-1.16.5.jar)
+  * [Repurposed Structures](https://mediafilez.forgecdn.net/files/3561/379/repurposed_structures_forge-3.4.7%2B1.16.5.jar)
+  * [ShetiPhanCore](https://mediafilez.forgecdn.net/files/4411/209/shetiphiancore-forge-1.16.2-3.8.17.jar)
+  * [Sophisticated Backpacks](https://mediafilez.forgecdn.net/files/4167/327/sophisticatedbackpacks-1.16.5-3.15.20.755.jar)
+  * [Storage Drawers](https://mediafilez.forgecdn.net/files/3776/277/StorageDrawers-1.16.3-8.5.2.jar)
+  * [SwingThroughGrass](https://mediafilez.forgecdn.net/files/3103/28/swingthroughgrass-1.16.4-1.5.3.jar)
+  * [Supplementaries](https://mediafilez.forgecdn.net/files/4351/390/supplementaries-1.16.5-0.18.5.jar)
+  * [Tetra](https://mediafilez.forgecdn.net/files/3585/32/tetra-1.16.5-3.20.0.jar)
+  * [Torchmaster](https://mediafilez.forgecdn.net/files/3433/163/torchmaster-2.3.8.jar)
+  * [Twilight Forest](https://mediafilez.forgecdn.net/files/3575/220/twilightforest-1.16.5-4.0.870-universal.jar)
+  * [Waystones](https://mediafilez.forgecdn.net/files/3515/707/Waystones_1.16.5-7.6.4.jar)
+  * [Valhelsia Core](https://mediafilez.forgecdn.net/files/3508/441/valhelsia_core-16.0.13a.jar)
+  * [Valhelsia Structures](https://mediafilez.forgecdn.net/files/3476/252/valhelsia_structures-1.16.5-0.1.6.jar)
+  * [Xaero's Minimap](https://mediafilez.forgecdn.net/files/4430/576/Xaeros_Minimap_23.3.0_Forge_1.16.5.jar)
+  * [Xaero's World Map](https://mediafilez.forgecdn.net/files/4424/627/XaerosWorldMap_1.29.2_Forge_1.16.5.jar)
   * You can also throw [an OptiFine jar](https://optifine.net/downloads) in there; you don't have to run the installer like you normally do with OptiFine, just throw the installer's jar in `mods` same as the rest
-
-Launch Minecraft, and you should be good to go.
 
 ## About
 
